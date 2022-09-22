@@ -1,0 +1,65 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <table id="tableSwapi" class="table table-striped">
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Status</td>
+                <td>Manager</td>
+                <td>Wfm_Manager</td>
+                <td>Email</td>
+                <td>LockStatus</td>
+                <td>Experience</td>                
+            </tr>
+        </thead>
+        <tbody id="list-list"></tbody>
+    </table>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#tableSwapi").dataTable();
+            $.ajax({
+                url: 'https://localhost:44368/api/Employees',
+                type: 'get',
+                dataType: 'json',
+                success: function (result) {
+                    let daftar = result.results;
+                    var html = '';
+                    $.each(daftar, function (i, data) {
+                        html += `<tr>
+                                       
+                                        <td>` + data.name + `</td>
+                                        <td>` + data.status + `</td>
+                                        <td>` + data.manager + `</td>
+                                        <td> ` + data.wfm_manager + ` </td>
+                                        <td> ` + data.email + ` </td>
+                                        <td>` + data.lockstatus + `</td>
+                                        <td> ` + data.experience + `</td>
+                                     
+                                    </tr>`;
+                       
+                        $("#list-list").html(html);
+                    });
+                }
+            });
+        })
+    </script>
+</body>
+</html>

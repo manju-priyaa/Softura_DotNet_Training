@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Training\\ASP_NetTraining\\DotNet_SofturaTraining_WFM\\WorkforManagmentRelationshipTask4\\WorkforceManagmentRelationshipTask4\\WorkforceManagmentRelationshipTask4\\WorkforceManagmentRelationshipTask4.csproj": {}
+    "D:\\Training\\ASP_NetTraining\\DotNet_SofturaTraining_WFM\\Tasks_WFM\\WorkforceManagmentRelationshipTask4\\WorkforceManagmentRelationshipTask4\\WorkforceManagmentRelationshipTask4.csproj": {}
   },
   "projects": {
-    "D:\\Training\\ASP_NetTraining\\DotNet_SofturaTraining_WFM\\WorkforManagmentRelationshipTask4\\WorkforceManagmentRelationshipTask4\\WorkforceManagmentRelationshipTask4\\WorkforceManagmentRelationshipTask4.csproj": {
+    "D:\\Training\\ASP_NetTraining\\DotNet_SofturaTraining_WFM\\Tasks_WFM\\WorkforceManagmentRelationshipTask4\\WorkforceManagmentRelationshipTask4\\WorkforceManagmentRelationshipTask4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Training\\ASP_NetTraining\\DotNet_SofturaTraining_WFM\\WorkforManagmentRelationshipTask4\\WorkforceManagmentRelationshipTask4\\WorkforceManagmentRelationshipTask4\\WorkforceManagmentRelationshipTask4.csproj",
+        "projectUniqueName": "D:\\Training\\ASP_NetTraining\\DotNet_SofturaTraining_WFM\\Tasks_WFM\\WorkforceManagmentRelationshipTask4\\WorkforceManagmentRelationshipTask4\\WorkforceManagmentRelationshipTask4.csproj",
         "projectName": "WorkforceManagmentRelationshipTask4",
-        "projectPath": "D:\\Training\\ASP_NetTraining\\DotNet_SofturaTraining_WFM\\WorkforManagmentRelationshipTask4\\WorkforceManagmentRelationshipTask4\\WorkforceManagmentRelationshipTask4\\WorkforceManagmentRelationshipTask4.csproj",
+        "projectPath": "D:\\Training\\ASP_NetTraining\\DotNet_SofturaTraining_WFM\\Tasks_WFM\\WorkforceManagmentRelationshipTask4\\WorkforceManagmentRelationshipTask4\\WorkforceManagmentRelationshipTask4.csproj",
         "packagesPath": "C:\\Users\\manjupriyaar\\.nuget\\packages\\",
-        "outputPath": "D:\\Training\\ASP_NetTraining\\DotNet_SofturaTraining_WFM\\WorkforManagmentRelationshipTask4\\WorkforceManagmentRelationshipTask4\\WorkforceManagmentRelationshipTask4\\obj\\",
+        "outputPath": "D:\\Training\\ASP_NetTraining\\DotNet_SofturaTraining_WFM\\Tasks_WFM\\WorkforceManagmentRelationshipTask4\\WorkforceManagmentRelationshipTask4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\manjupriyaar\\AppData\\Roaming\\NuGet\\NuGet.Config",
