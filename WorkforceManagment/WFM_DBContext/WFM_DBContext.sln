@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFM_DBContext", "WFM_DBContext\WFM_DBContext.csproj", "{4F4AD6E7-452F-4F51-80A2-B86DDEA27ECD}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WFM_Models", "..\WFM_Models\WFM_Models\WFM_Models.csproj", "{B9968955-0C7F-4C86-BD8D-27E37817C5BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4F4AD6E7-452F-4F51-80A2-B86DDEA27ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F4AD6E7-452F-4F51-80A2-B86DDEA27ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F4AD6E7-452F-4F51-80A2-B86DDEA27ECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9968955-0C7F-4C86-BD8D-27E37817C5BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9968955-0C7F-4C86-BD8D-27E37817C5BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9968955-0C7F-4C86-BD8D-27E37817C5BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9968955-0C7F-4C86-BD8D-27E37817C5BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
